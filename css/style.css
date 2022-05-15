@@ -1,0 +1,41 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.card{
+
+    width:800px ;
+    height: 400px;
+   background-image:url("../image/logo2.jpg"), url("../image/logo1.jpg"),url("../image/f8ab20914760c14ab82b4611e3e7a25d.jpg");
+
+   background-size: 80px 80px,286px 176px,cover;
+
+   background-repeat: repeat-x,repeat-x,no-repeat;
+
+   background-position: 0px 0px,530px 223px,center;
+
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 60px;
+    color: black;
+    margin-top: 40px;
+
+}
+.card h1 {
+    text-align: center;
+
+    
+}
+
+.card h2 {
+    text-align: center;
+
+    
+}
+.card p{
+   margin: 20px;
+line-height: 20px;
+}
